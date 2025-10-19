@@ -1,0 +1,12 @@
+name: 'duplicate issue detector'
+description: '🔍 Detect duplicate issues using text similarity'
+author: 'rkneela0912'
+inputs:
+  github_token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: 'check'
+  color: 'blue'
